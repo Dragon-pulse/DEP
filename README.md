@@ -1,7 +1,7 @@
 # DEP
 
 
-  退役机电产品领域数据集，包括退役机电产品领域实体关系抽取数据集（Joint Entity and Relation Extraction Dataset In In Tthe Field Of of Decommissioned Electromechanical Products，DEP-JERE），以及退役机电产品领域实体对齐数据集（Entity Alignment Dataset In The Field Of Decommissioned Electromechanical Products，DEP-EA）。
+  退役机电产品领域数据集，包括退役机电产品领域实体关系抽取数据集（Joint Entity and Relation Extraction Dataset In the Field of Decommissioned Electromechanical Products，DEP-JERE），以及退役机电产品领域实体对齐数据集（Entity Alignment Dataset In the Field of Decommissioned Electromechanical Products，DEP-EA）。
   
 退役机电产品领域实体关系抽取数据集：
   由于退役机电产品领域暂无公开的实体关系抽取数据集，本文基于退役机电产品逆向物流追溯需求，定义了退役机电产品领域实体类别和关系类别。退役机电产品文本原始信息主要来源于知网论文，基于远程监督的思想，利用机电产品的结构化三元组数据对文本信息进行标记，最终构建了退役机电产品领域文本数据集，此数据集由4726个句子组成，对数据集进行分割得到3726个训练句子，300个验证句子和700个测试句子。
