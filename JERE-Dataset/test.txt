@@ -1,1 +1,6 @@
 测试
+实体关系联合抽取数据集中每条数据为字典样式，字典中存在键值对，其中键包括raw_sentence，sentence_split，real_entity，real_relation：
+raw_sentence：原始句子
+sentence_split：句子分割为字符的列表
+real_entity：实体在句子中起始和终止位置的索引，以及实体
+real_relation：第一个实体在句子中起始和终止位置的索引，第二个实体在句子中起始和终止位置的索引，以及两个实体之间关系
