@@ -1,1 +1,12 @@
 测试
+实体对齐数据集包含五个文件：
+
+attribute_triples.pkl：属性三元组文件，包括实体索引，属性和属性值
+
+entity_code.pkl：实体索引文件，包括实体索引和实体名称
+
+entity_pairs.pkl：实体对文件，包括两对齐实体的实体索引
+
+relation_ids.pkl：关系索引文件，包括关系索引和关系名称
+
+relation_triples.pkl：关系三元组文件，包括起始实体索引，终止实体索引和两实体之间的关系索引
